@@ -1,0 +1,240 @@
+/*
+ * Charming Designs v1.0.0 (https://github.com/charmingdesigns/charmingdesigns.github.io)
+ * Copyright 2016-2016 arun varghese
+ */
+@import url("https://fonts.googleapis.com/css?family=Allura|Monsieur+La+Doulaise|Mr+De+Haviland|Ruthie");
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi");
+html,
+body {
+  height: 100%;
+  font-family: "Reem Kufi", sans-serif;
+  font-weight: 100;
+  background: #F9D6D2; }
+
+/*div {
+  width: 100%;
+  height: 100%;
+}
+*/
+a {
+  color: inherit !important; }
+
+ul,
+li {
+  list-style-type: none !important;
+  margin: 0;
+  padding: 0; }
+
+i,
+a,
+button,
+select,
+div {
+  text-decoration: none !important;
+  outline: none !important; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+.navbar {
+  font-size: 1.5em;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  padding: .5em;
+  color: #9e1552;
+  background: transparent;
+  border: none;
+  /*box-shadow: 0px 1em 1em #F9D6D2;*/ }
+  .navbar .container .navbar-header {
+    padding-left: .5em; }
+    .navbar .container .navbar-header .navbar-brand {
+      font-family: "Allura", cursive;
+      text-shadow: none !important;
+      margin-top: .2em;
+      font-size: 2em;
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out; }
+      .navbar .container .navbar-header .navbar-brand:hover {
+        color: #D3B565 !important; }
+    .navbar .container .navbar-header .navbar-toggle {
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out; }
+      .navbar .container .navbar-header .navbar-toggle:hover {
+        color: #D3B565 !important; }
+  .navbar .container .navbar-collapse .navbar-nav li {
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; }
+    .navbar .container .navbar-collapse .navbar-nav li a {
+      text-shadow: none !important;
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out;
+      background: transparent !important; }
+      .navbar .container .navbar-collapse .navbar-nav li a:hover {
+        color: #D3B565 !important; }
+
+.top-nav-collapse {
+  padding: 0; }
+
+.top-nav-collapse-full {
+  background: #F9D6D2;
+  box-shadow: none;
+  border-bottom: 1px solid purple; }
+
+header {
+  min-height: 100%;
+  padding: 5em 0;
+  /*background: url('../img/examples/stage.jpg');*/
+  background: #fff;
+  background: white;
+  background-size: cover;
+  background-position: center center; }
+  header .header-overlay {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /*background: linear-gradient(transparent,transparent,rgba(249, 214, 210, 0.69),$bg-2);*/ }
+  header .header-text {
+    text-shadow: 0.1em 0.1em 0.5em rgba(0, 0, 0, 0.5);
+    background: transparent;
+    color: #9e1552;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    text-align: center; }
+    header .header-text h1 {
+      font-family: "Allura", cursive;
+      font-size: 5em;
+      color: #9e1552;
+      text-shadow: 0 0 0.1em #D4AF37; }
+    header .header-text .lead {
+      font-family: "Reem Kufi", sans-serif; }
+
+footer div {
+  text-align: center;
+  padding: 1.5em;
+  font-family: "Allura", cursive;
+  color: #9e1552;
+  font-size: 1.5em; }
+
+#services {
+  padding: 5em 0;
+  min-height: 100%;
+  background: #F9D6D2; }
+  #services .container h1 {
+    font-family: "Allura", cursive;
+    font-size: 4em;
+    color: #9e1552; }
+  #services .container hr {
+    border-color: #9e1552; }
+  #services .container .row div ul li {
+    font-size: 2em;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out; }
+    #services .container .row div ul li:hover {
+      color: #D3B565 !important; }
+
+#gallery {
+  min-height: 50%;
+  background: #fff;
+  padding: 4em 0;
+  /*    position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);*/
+  width: 100%; }
+  #gallery h1 {
+    font-family: "Allura", cursive;
+    font-size: 4em;
+    color: #9e1552; }
+  #gallery hr {
+    border-color: #9e1552; }
+  #gallery .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: stretch;
+        align-content: stretch;
+    padding: 5em 0; }
+    #gallery .grid .item {
+      max-width: 25em;
+      background: black;
+      margin: .5em;
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out;
+      border: 5px solid #D3B565;
+      position: relative; }
+      #gallery .grid .item .bg {
+        height: auto;
+        width: 100%;
+        background-position: center center !important;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        -webkit-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out; }
+      #gallery .grid .item .bg-overlay {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: -webkit-radial-gradient(transparent, #000);
+        background: radial-gradient(transparent, #000);
+        -webkit-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out; }
+
+.item:hover .item > .bg-overlay {
+  visibility: visible;
+  opacity: 1; }
+
+#contact {
+  border-top: 1px solid purple;
+  min-height: 50%;
+  background: #F9D6D2;
+  padding: 5em 0; }
+  #contact .container h1 {
+    font-family: "Allura", cursive;
+    font-size: 4em;
+    color: #9e1552; }
+  #contact .container hr {
+    border-color: #9e1552; }
+  #contact .container .row div .social-icons {
+    font-size: 5em; }
+    #contact .container .row div .social-icons li {
+      float: left;
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out; }
+      #contact .container .row div .social-icons li:hover {
+        color: #D3B565 !important; }
+  #contact .container .row div .contact-info {
+    font-size: 2em; }
+    #contact .container .row div .contact-info li {
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out; }
+      #contact .container .row div .contact-info li:hover {
+        color: #D3B565 !important; }
+
+hr {
+  max-width: 50em; }
+
+@media (max-width: 767px) {
+  header .header-text {
+    margin: 0;
+    text-align: center; }
+  .top-nav-collapse-full {
+    background: inherit; }
+  .navbar {
+    background: #F9D6D2 !important; } }
