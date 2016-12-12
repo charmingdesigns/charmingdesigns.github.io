@@ -125,7 +125,8 @@ footer div {
 #services {
   padding: 5em 0;
   min-height: 100%;
-  background: #F9D6D2; }
+  background: #F9D6D2;
+  border: 0.1em solid purple; }
   #services .container h1 {
     font-family: "Allura", cursive;
     font-size: 4em;
@@ -215,6 +216,7 @@ footer div {
     font-size: 5em;
     float: right; }
     #contact .container .row div .social-icons li {
+      padding-right: .3em;
       float: left;
       -webkit-transition: 0.5s ease-in-out;
       transition: 0.5s ease-in-out; }

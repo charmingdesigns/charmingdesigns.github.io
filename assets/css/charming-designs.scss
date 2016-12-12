@@ -6,7 +6,7 @@ $font-family-1 : 'Reem Kufi', sans-serif;
 $font-family-2 : 'Allura', cursive;
 $color-1 : #9e1552;
 $color-2 : #D4AF37;
-$color-3 : #DECDA0;
+$color-3 : purple;
 $color-4 : #D3B565;
 $transition-short : 0.5s ease-in-out;
 $transition-long : 0.8s ease-in-out;
@@ -156,6 +156,7 @@ footer {
   padding: 5em 0;
   min-height: 100%;
   background: $bg-2;
+  border: .1em solid $color-3;
   .container {
     h1 {
       font-family: $font-family-2;
@@ -258,6 +259,7 @@ footer {
           font-size: 5em;
           float: right;
           li {
+            padding-right: .3em;
             float: left;
             transition: $transition-short;
             &:hover {
