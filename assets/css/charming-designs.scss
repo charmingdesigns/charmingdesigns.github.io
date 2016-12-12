@@ -12,6 +12,7 @@ $transition-short : 0.5s ease-in-out;
 $transition-long : 0.8s ease-in-out;
 $bg-1 : #fff;
 $bg-2 : #F9D6D2;
+$hr-color : purple;
 
 html,
 body {
@@ -162,7 +163,7 @@ footer {
       color: $color-1;
     }
     hr {
-      border-color: $color-1;
+      border-color: $hr-color;
     }
     .row {
       div {
@@ -190,7 +191,7 @@ footer {
     color: $color-1;
   }
   hr {
-      border-color: $color-1;
+      border-color: $hr-color;
   }
 /*    position: absolute;
   left: 50%;
@@ -249,12 +250,13 @@ footer {
       color: $color-1;
     }
     hr {
-      border-color: $color-1;
+      border-color: $hr-color;
     }
     .row {
       div {        
         .social-icons {
           font-size: 5em;
+          float: right;
           li {
             float: left;
             transition: $transition-short;
@@ -279,7 +281,9 @@ footer {
 
 hr {
   max-width: 50em;
+  border-color: $hr-color;
 }
+
 @media (max-width: 767px) {
   header {
     .header-text {
@@ -292,5 +296,9 @@ hr {
   }
   .navbar {
     background: $bg-2 !important;
+  }
+  .social-icons {
+    float: none !important
+    ;
   }
 }

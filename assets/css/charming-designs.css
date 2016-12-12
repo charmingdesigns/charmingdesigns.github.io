@@ -131,7 +131,7 @@ footer div {
     font-size: 4em;
     color: #9e1552; }
   #services .container hr {
-    border-color: #9e1552; }
+    border-color: purple; }
   #services .container .row div ul li {
     font-size: 2em;
     -webkit-transition: 0.5s ease-in-out;
@@ -152,7 +152,7 @@ footer div {
     font-size: 4em;
     color: #9e1552; }
   #gallery hr {
-    border-color: #9e1552; }
+    border-color: purple; }
   #gallery .grid {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -210,9 +210,10 @@ footer div {
     font-size: 4em;
     color: #9e1552; }
   #contact .container hr {
-    border-color: #9e1552; }
+    border-color: purple; }
   #contact .container .row div .social-icons {
-    font-size: 5em; }
+    font-size: 5em;
+    float: right; }
     #contact .container .row div .social-icons li {
       float: left;
       -webkit-transition: 0.5s ease-in-out;
@@ -228,7 +229,8 @@ footer div {
         color: #D3B565 !important; }
 
 hr {
-  max-width: 50em; }
+  max-width: 50em;
+  border-color: purple; }
 
 @media (max-width: 767px) {
   header .header-text {
@@ -237,4 +239,6 @@ hr {
   .top-nav-collapse-full {
     background: inherit; }
   .navbar {
-    background: #F9D6D2 !important; } }
+    background: #F9D6D2 !important; }
+  .social-icons {
+    float: none !important; } }
