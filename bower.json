@@ -19,7 +19,9 @@
     "font-awesome": "4.7.0",
     "jquery": "3.1.1",
     "wow": "1.1.2",
-    "animate.css": "3.5.2"
+    "animate.css": "3.5.2",
+    "jquery-ui": "1.12.1",
+    "Scrollify": "^1.0.9"
   },
   "resolutions": {
     "jquery": "1.9.1 - 2"

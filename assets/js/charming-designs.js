@@ -20,6 +20,31 @@ var Charming = {
 		$(document).click(function(event) {
 		   $('.navbar-collapse').collapse('hide');
 		});
+
+		$.scrollify({
+			section : ".scrollify",
+			interstitialSection : "",
+			easing: "easeInOutQuart",
+			scrollSpeed: 700,
+			offset : 0,
+			scrollbars: true,
+			standardScrollElements: "",
+			setHeights: true,
+			overflowScroll: true,
+			updateHash: true,
+			touchScroll:true,
+			before:function() {},
+			after:function() {},
+			afterResize:function() {},
+			afterRender:function() {}
+		});
+
+		$('a.page-scroll').bind('click', function(event) {
+	        var $anchor = $(this);
+	        $('html, body').stop().animate({
+	            scrollTop: $($anchor.attr('href')).offset().top
+	        }, 800, 'easeInOutExpo');
+	    });
 		console.info('all events loaded');
 	}
 };
